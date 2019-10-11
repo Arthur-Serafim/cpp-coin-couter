@@ -11,9 +11,6 @@ int main() {
     cin >> total;
     
     for (int i {0}; i < 7; i++) {
-        if (total < notes.at(i)) {
-            cout << notes.at(i) << "$: 0 " << "notes" << endl;
-        } else {
             int modulo {0};
             int total_notes {0};
             int note = notes.at(i);
@@ -25,6 +22,5 @@ int main() {
             total = modulo;
             
             cout << notes.at(i) << "$: " << total_notes << " notes" << endl;
-        }
     }
 }
