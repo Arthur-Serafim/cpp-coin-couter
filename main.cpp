@@ -10,7 +10,7 @@ int main() {
     cout << "How many dolars do you want to withdraw? ";
     cin >> total;
     
-    for (int i {0}; i < 7; i++) {
+    for (int i {0}; i < notes.size(); i++) {
             int modulo {0};
             int total_notes {0};
             int note = notes.at(i);
